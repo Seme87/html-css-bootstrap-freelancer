@@ -15,3 +15,24 @@
 .ms-bg-primary-color{
     background-color: var(--ms-primary-color);
 }
+
+/*----------------
+     UTILITES
+-----------------*/
+
+/*----------------
+     HEADER
+-----------------*/
+
+.ms-main-nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.ms-main-nav li{
+    padding: 0 0.5rem;
+}
+
+.ms-main-nav a{
+    text-decoration: none;
+}
