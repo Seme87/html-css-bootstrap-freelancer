@@ -17,7 +17,9 @@
     background-color: var(--ms-primary-color);
 }
 
-
+.ms-container{
+    max-width: 980px;
+}
 
 /*----------------
      UTILITES
@@ -64,4 +66,8 @@
 
 .ms-bg-column{
     background-color: yellow;
+}
+
+.ms-about{
+    background-color: #1abc9c;
 }
