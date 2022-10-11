@@ -13,12 +13,18 @@
     UTILITES
 -----------------*/
 .ms-bg-primary-color{
+    color: rgb(246, 241, 241);
     background-color: var(--ms-primary-color);
 }
+
+
 
 /*----------------
      UTILITES
 -----------------*/
+
+
+
 
 /*----------------
      HEADER
@@ -38,5 +44,24 @@
 
 .ms-main-nav a{
     text-decoration: none;
-    color: black;
+    color: rgb(246, 241, 241);
+}
+
+/*----------------
+     HEADER
+-----------------*/
+
+
+
+
+/*----------------
+       MAIN
+-----------------*/
+
+.ms-start-bootstrap{
+    background-color:#1abc9c ;
+}
+
+.ms-bg-column{
+    background-color: yellow;
 }
