@@ -1,0 +1,17 @@
+/*----------------
+    VARIABLES
+-----------------*/
+:root{
+    --ms-primary-color:#2c3e50;
+}
+
+/*----------------
+    VARIABLES
+-----------------*/
+
+/*----------------
+    UTILITES
+-----------------*/
+.ms-bg-primary-color{
+    background-color: var(--ms-primary-color);
+}
