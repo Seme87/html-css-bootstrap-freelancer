@@ -1,6 +1,17 @@
 /*----------------
+   IMPORT
+-----------------*/
+@import url(component.css);
+
+
+
+
+/*----------------
     VARIABLES
 -----------------*/
+
+
+
 :root{
     --ms-primary-color:#2c3e50;
 }
@@ -8,6 +19,9 @@
 /*----------------
     VARIABLES
 -----------------*/
+
+
+
 
 /*----------------
     UTILITES
@@ -19,6 +33,14 @@
 
 .ms-container{
     max-width: 980px;
+}
+
+.ms-container-small{
+    max-width: 200px;
+}
+
+img{
+    width: 100%;
 }
 
 /*----------------
@@ -70,6 +92,18 @@
 
 .ms-about{
     background-color: #1abc9c;
+}
+
+.ms-title-card-avatar{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.ms-string-white{
+    height: 3px;
+    background-color: white;
 }
 
 /*----------------
