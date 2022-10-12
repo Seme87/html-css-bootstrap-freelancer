@@ -1,7 +1,12 @@
 /*----------------
    IMPORT
 -----------------*/
+
 @import url(component.css);
+
+/*----------------
+   IMPORT
+-----------------*/
 
 
 
@@ -9,8 +14,6 @@
 /*----------------
     VARIABLES
 -----------------*/
-
-
 
 :root{
     --ms-primary-color:#2c3e50;
@@ -31,18 +34,6 @@
     background-color: var(--ms-primary-color);
 }
 
-.ms-container{
-    max-width: 980px;
-}
-
-.ms-container-mid{
-    max-width: 440px;
-}
-
-.ms-container-small{
-    max-width: 230px;
-}
-
 img{
     width: 100%;
 }
@@ -50,6 +41,39 @@ img{
 /*----------------
      UTILITES
 -----------------*/
+
+
+
+
+
+
+
+/*----------------
+    CONTAINERS
+-----------------*/
+
+.ms-container {
+    max-width: 980px;
+}
+
+.ms-container-mid {
+    max-width: 440px;
+}
+
+.ms-container-small {
+    max-width: 230px;
+}
+
+/*----------------
+    CONTAINERS
+-----------------*/
+
+
+
+
+
+
+
 
 
 
@@ -86,13 +110,14 @@ img{
        MAIN
 -----------------*/
 
+
+/* section ms-start Bootstrap */
+
 .ms-start-bootstrap{
     background-color:#1abc9c ;
 }
 
-.ms-bg-column{
-    background-color: yellow;
-}
+
 
 .ms-about{
     background-color: #1abc9c;
@@ -122,6 +147,23 @@ img{
     font-weight: bold;
 
 }
+
+/* section ms-start Bootstrap */
+
+
+
+/* section ms-portfolio */
+
+.ms-string-black{
+    height: 3px;
+    background-color: black;
+}
+
+.ms-icon-portfolio div i{
+    color: black;
+}
+
+
 /*----------------
        MAIN
 -----------------*/
